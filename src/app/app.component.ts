@@ -6,5 +6,33 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculadora-app';
+  private title = "Aplicación calculadora";
+  a:number=0;
+  b:number=0;
+  private resultado:number=0;
+
+  public getSuma(){
+    this.resultado=this.a+this.b;
+  }
+
+  public getResta(){
+    this.resultado=this.a-this.b;
+  }
+
+  public getMultiplicacion(){
+    this.resultado=this.a * this.b;
+  }
+
+  public getDivision(){
+    this.resultado=this.a/this.b;
+  }
+
+  public getTitle():String{
+    return this.title;
+  }
+
+  public getResultado():number{
+    return this.resultado
+  }
+
 }

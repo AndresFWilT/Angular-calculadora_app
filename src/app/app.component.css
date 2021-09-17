@@ -1,0 +1,17 @@
+h1.tituloP{
+    color:dodgerblue;
+    text-align: center;
+}
+h2.tituloS{
+    color:darkslategray;
+    text-align: center;
+}
+.botones{
+    text-align: center;
+}
+p.resultado{
+    font-size: 35px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+}
